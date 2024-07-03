@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(./img/bg_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 80%;
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+}
+#logo {
+  margin-top: 30px;
+}
+.title {
+  color: #fff;
+  font: bold 0.8em Arial;
+  text-align: left;
+  margin: 20px 0;
+}
+.leftSide,
+.rightSide {
+  display: inline-block;
+}
+.game {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px 10px 10px 20px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+.game img {
+  height: 100px;
+  border-radius: 20px;
+}
+.aboutGame {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 80px 0 30px;
+}
+.aboutGame p {
+  color: #7f7e7e;
+  line-height: 1.3em;
+  text-align: left;
+}
+.aboutGame p:nth-of-type(1) {
+  color: #fff;
+  font-weight: bold;
+}
+.aboutGame i {
+  font-size: 0.5em;
+  color: rgb(227, 149, 3);
+  margin: 0 5px 0 -10px;
+}
+.discover {
+  text-align: left;
+  margin-left: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+.discover span {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.rightSide {
+  vertical-align: top;
+}
+.rightSide i {
+  float: right;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+form {
+  background-color: #fff;
+  width: 450px;
+  margin-left: 200px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 30px;
+}
+h2 {
+  margin: 20px 0;
+}
+input,
+button {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+input {
+  background-color: #e9e8e8;
+  outline: none;
+}
+.rightSide p:nth-of-type(1) {
+  margin-bottom: 20px;
+  font-size: 0.8em;
+}
+.rightSide p a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+button {
+  color: #fff;
+  background-color: #800080;
+}
+button:nth-of-type(2) {
+  background-color: #0000ff;
+}
